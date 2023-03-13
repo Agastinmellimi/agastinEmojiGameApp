@@ -1,0 +1,67 @@
+/* Write your code here. */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.nav-container {
+  background-color: #ffffff33;
+  padding-left: 80px;
+  padding-right: 140px;
+  width: 100%;
+}
+.emoji-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+}
+.scores-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.score {
+  color: #ffffff;
+  margin-right: 25px;
+  font-size: 15px;
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.topScore {
+  color: #ffffff;
+  margin-right: 20px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-logo {
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 25px;
+  }
+  .topScore {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .nav-bar {
+    width: 95%;
+  }
+  .emoji-logo-container {
+    margin-right: auto;
+  }
+}
